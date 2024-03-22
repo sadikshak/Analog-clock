@@ -5,32 +5,36 @@ margin:auto;
     width: 40vw;
     background: url(clock.png) no-repeat;
     background-size: 100%;
+    position: relative;
 
 }
 #hour, #min, #sec{
     position: absolute; 
-    background: rgb(99, 58, 117);
+   /* background: rgb(99, 58, 117);*/
     border-radius: 10px;
 
 }
 #hour{
     width: 1%;
-    height: 10%;
-    margin-top: 14%;
-    margin-left: 19.5%;
+    height: 14%;
+    background-color: rgb(243, 5, 231);
+    margin-top: 37%;
+    margin-left: 49.5%; 
+    
+    
 }
 #min{
     width: 0.5%;
-    height: 10%;
-    margin-top: 14%;
-    margin-left: 22%;
-
-
+    height: 16%;
+    margin-top: 35%;
+    margin-left: 49.75%;
+    background-color: brown;
+    
 }
 #sec{
     width: 0.25%;
-    height: 10%;
-    margin-top: 14%;
-    margin-left: 23%;
-
+    height: 23%;
+    margin-top: 36%;
+    margin-left: 50%;
+background-color: blue;
 }
